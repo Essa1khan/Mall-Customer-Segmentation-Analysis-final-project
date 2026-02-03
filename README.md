@@ -71,13 +71,15 @@ This project uses clustering algorithms to identify customer segments based on:
 
 ### Customer Segments Identified:
 
-| Cluster | Name | Size | Avg Income | Avg Spending | Strategy |
-|---------|------|------|------------|--------------|----------|
-| 0 | Budget Conscious | XX | $XXk | XX/100 | Value & Discounts |
-| 1 | Young Spenders | XX | $XXk | XX/100 | Trendy Products |
-| 2 | High Rollers | XX | $XXk | XX/100 | Premium Services |
-| 3 | Potential Targets | XX | $XXk | XX/100 | Quality Products |
-| 4 | Standard Customers | XX | $XXk | XX/100 | Balanced Approach |
+
+                    Count  Avg_Age  Avg_Income  Avg_Spending Gender_Split
+Cluster_Name                                                             
+Budget Conscious       23     45.2        26.3          20.9     M:9 F:14
+High Rollers           39     32.7        86.5          82.1    M:18 F:21
+Potential Targets      35     41.1        88.2          17.1    M:19 F:16
+Standard Customers     81     42.7        55.3          49.5    M:33 F:48
+Young Spenders         22     25.3        25.7          79.4     M:9 F:13
+
 
 ### Key Findings:
 ✅ Clear segmentation patterns identified  
